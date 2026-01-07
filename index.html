@@ -10,9 +10,6 @@
         content="tent hiring, event tents, wedding tents, party tents, corporate event tents, tent rental">
     <title>EVANSON TENTS AND CHAIRS</title>
 
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,8 +19,8 @@
     <!-- AOS Animation Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- Heroicons -->
-    <script src="https://unpkg.com/@heroicons/react@2.0.18/24/outline/index.js" type="module"></script>
+    <!-- Vite Entry Point -->
+    <script type="module" src="./src/entry.js"></script>
 
     <style>
         body {
@@ -46,16 +43,6 @@
 </head>
 
 <body class="bg-gray-50">
-    <!-- <script>
-        function sendEmailButton() {
-            const email = "enyangenyas@gmail.com";
-            const subject = "Enquiry from EVANSON TENTS & CHAIRS";
-            const body = "";
-
-            window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        }
-    </script> -->
-    <!-- Navigation -->
     <nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md shadow-sm z-50 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16 md:h-20">
@@ -179,8 +166,8 @@
                 </div>
                 <div class="relative" data-aos="fade-left">
                     <div class="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
-                        <img src="./images/WhatsApp Image 2025-12-19 at 3.39.34 PM.jpeg Image 2025-12-19 at 3.39.34 PM.jpeg"
-                            alt="Professional tent setup team" class="w-full h-full object-cover">
+                        <img src="./public/images/image1.jpeg" alt="Professional tent setup team"
+                            class="w-full h-full object-cover">
                     </div>
                 </div>
             </div>
@@ -360,7 +347,7 @@
                 <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                     data-aos="fade-up" data-aos-delay="0">
                     <div class="aspect-[4/3] overflow-hidden">
-                        <img src="./images/WhatsApp Image 2025-12-19 at 3.39.32 PM.jpeg" alt="Wedding tent setup"
+                        <img src="./public/images/image2.jpeg" alt="Wedding tent setup"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <!-- <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -370,7 +357,7 @@
                 <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                     data-aos="fade-up" data-aos-delay="100">
                     <div class="aspect-[4/3] overflow-hidden">
-                        <img src="./images/WhatsApp Image 2025-12-19 at 3.39.34 PM.jpeg"
+                        <img src="./public/images/image1.jpeg"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <!-- <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -380,7 +367,7 @@
                 <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                     data-aos="fade-up" data-aos-delay="200">
                     <div class="aspect-[4/3] overflow-hidden">
-                        <img src="./images/WhatsApp Image 2025-12-19 at 3.39.35 PM.jpeg" alt="Church function tent"
+                        <img src="./public/images/image3.jpeg" alt="Church function tent"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <!-- <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -390,7 +377,7 @@
                 <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                     data-aos="fade-up" data-aos-delay="300">
                     <div class="aspect-[4/3] overflow-hidden">
-                        <img src="./images/WhatsApp Image 2025-12-19 at 3.39.36 PM.jpeg" alt="Party tent setup"
+                        <img src="./public/images/image4.jpeg" alt="Party tent setup"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <!-- <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -400,7 +387,7 @@
                 <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                     data-aos="fade-up" data-aos-delay="400">
                     <div class="aspect-[4/3] overflow-hidden">
-                        <img src="./images/WhatsApp Image 2025-12-19 at 3.39.34 PM 2.jpeg" alt="Community event tent"
+                        <img src="./public/images/image5.jpeg" alt="Community event tent"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <!-- <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -410,7 +397,7 @@
                 <div class="relative group overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                     data-aos="fade-up" data-aos-delay="500">
                     <div class="aspect-[4/3] overflow-hidden">
-                        <img src="./images/WhatsApp Image 2025-12-19 at 3.39.34 PM 3.jpeg" alt="Large gathering tent"
+                        <img src="./public/images/image6.jpeg" alt="Large gathering tent"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <!-- <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -585,7 +572,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Custom JavaScript -->
-    <script src="script.js"></script>
+
 </body>
 
 </html>
